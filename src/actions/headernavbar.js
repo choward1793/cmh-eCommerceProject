@@ -11,10 +11,13 @@ export function setHeaderLinks(links) {
     })
 }
 
-export function setNavbarLinks(links) {
+export function setNavbarLinks(links, onClick) {
     return ({
-        type:SET_NAVBAR_LINKS,
-        payload: links
+        type: SET_NAVBAR_LINKS,
+        payload: {
+            links,
+            onClick: onClick ? onClick : ''
+        }
     })
 }
 
