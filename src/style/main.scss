@@ -10,7 +10,6 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    font-family: 'montserrat';
 }
 
 body {
@@ -44,6 +43,7 @@ body {
 @import 'shop/shop-product';
 
 @import 'shop/shop-cart';
+@import 'shop/cart-product';
 
 @import 'quantity';
 @import 'green-price-tag';
